@@ -757,7 +757,8 @@ callbacks.shift()();
 <div id="ScatterChartID2bbc1d9f6419" 
   style="width: 500; height: automatic;">
 </div>
- <div><span>Data: df &#8226; Chart ID: <a href="Chart_ScatterChartID2bbc1d9f6419.html">ScatterChartID2bbc1d9f6419</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+
+ <div><p>기대수명(x축)과 수입(Y축)의 상관관계</p><span>Data: df &#8226; Chart ID: <a href="Chart_ScatterChartID2bbc1d9f6419.html">ScatterChartID2bbc1d9f6419</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.2.4 Revised (2016-03-16 r70336) 
