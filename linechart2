@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>LineChartID28204ff841c9</title>
+<title>LineChartID1dcc188d196b</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -18,14 +18,14 @@ body {
 </head>
 <body>
  <!-- LineChart generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Mon Jun 06 23:13:13 2016 -->
+<!-- Tue Jun 14 01:16:36 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartID28204ff841c9 () {
+function gvisDataLineChartID1dcc188d196b () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -53,20 +53,22 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartID28204ff841c9() {
-var data = gvisDataLineChartID28204ff841c9();
+function drawChartLineChartID1dcc188d196b() {
+var data = gvisDataLineChartID1dcc188d196b();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "3countrys population";
 options["hAxis"] = {title: 'country'};
-options["vAxes"] = [{title: 'population'}, 
-                                      {title: '%'}];
+options["vAxes"] = [{title: '$', format:'##.#$'},
+                                   {title: 'population' }];
 options["series"] = [{targetAxisIndex: 0},
                                                {targetAxisIndex: 1}];
+options["width"] =    500;
+options["height"] =    400;
 
 
     var chart = new google.visualization.LineChart(
-    document.getElementById('LineChartID28204ff841c9')
+    document.getElementById('LineChartID1dcc188d196b')
     );
     chart.draw(data,options);
     
@@ -90,9 +92,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID28204ff841c9);
+callbacks.push(drawChartLineChartID1dcc188d196b);
 })();
-function displayChartLineChartID28204ff841c9() {
+function displayChartLineChartID1dcc188d196b() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -116,22 +118,20 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID28204ff841c9"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID1dcc188d196b"></script>
  
 <!-- divChart -->
   
-<div id="LineChartID28204ff841c9" 
-  style="width: 500; height: automatic;">
+<div id="LineChartID1dcc188d196b" 
+  style="width: 500; height: 400;">
 </div>
- <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartID28204ff841c9.html">LineChartID28204ff841c9</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartID1dcc188d196b.html">LineChartID1dcc188d196b</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.2.4 Revised (2016-03-16 r70336) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/linechart">Documentation and Data Policy</a>
 </span></div>
-<p>빨간색 줄은 국가와 인구의 상관관계를 나타낸 것이다.</p>
-<p>파란색 줄은 국가와 소득의 상관관계를 나타낸 것이다.</p>
-<p>Y축의 수치를 인구와 소득 두가지로 표현하여 수치의 차이가 많이 나더라도
-라인이 바닥에 닿지 않는다.</p>
+<p>Y축을 소득과 인구 수 2종류로 표현했다.</p>
+<p>때문에 파란색 라인이 바닥에 붙지 않았다.</p>
 </body>
 </html>
