@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>GeoMapID2820254121</title>
+<title>GeoMapID1dcc20f1338d</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -18,14 +18,14 @@ body {
 </head>
 <body>
  <!-- GeoMap generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Mon Jun 06 23:06:24 2016 -->
+<!-- Tue Jun 14 01:16:17 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoMapID2820254121 () {
+function gvisDataGeoMapID1dcc20f1338d () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -858,8 +858,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoMapID2820254121() {
-var data = gvisDataGeoMapID2820254121();
+function drawChartGeoMapID1dcc20f1338d() {
+var data = gvisDataGeoMapID1dcc20f1338d();
 var options = {};
 options["dataMode"] = "regions";
 options["width"] =    556;
@@ -867,7 +867,7 @@ options["height"] =    347;
 
 
     var chart = new google.visualization.GeoMap(
-    document.getElementById('GeoMapID2820254121')
+    document.getElementById('GeoMapID1dcc20f1338d')
     );
     chart.draw(data,options);
     
@@ -891,9 +891,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartGeoMapID2820254121);
+callbacks.push(drawChartGeoMapID1dcc20f1338d);
 })();
-function displayChartGeoMapID2820254121() {
+function displayChartGeoMapID1dcc20f1338d() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -917,20 +917,20 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoMapID2820254121"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoMapID1dcc20f1338d"></script>
  
 <!-- divChart -->
   
-<div id="GeoMapID2820254121" 
+<div id="GeoMapID1dcc20f1338d" 
   style="width: 556; height: 347;">
 </div>
- <div><span>Data: df &#8226; Chart ID: <a href="Chart_GeoMapID2820254121.html">GeoMapID2820254121</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: df &#8226; Chart ID: <a href="Chart_GeoMapID1dcc20f1338d.html">GeoMapID1dcc20f1338d</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.2.4 Revised (2016-03-16 r70336) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/geomap">Documentation and Data Policy</a>
 </span></div>
-<p>국가별 소득을 나타낸 것이다.</p>
-<p>소득이 높을수록 더 진하게 나타난다.</p>
+<p>국가별 소득을 나타낸 맵차트이다.</p>
+<p>소득이 높을수록 더욱 진하게 표현된다.</p>
 </body>
 </html>
