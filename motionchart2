@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>MotionChartID8f021236cc3</title>
+<title>MotionChartID1dcc140a804</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -17,15 +17,15 @@ body {
 </style>
 </head>
 <body>
- <!-- MotionChart generated in R 3.2.3 by googleVis 0.5.10 package -->
-<!-- Tue May 31 16:39:12 2016 -->
+ <!-- MotionChart generated in R 3.2.4 by googleVis 0.5.10 package -->
+<!-- Tue Jun 14 01:15:52 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID8f021236cc3 () {
+function gvisDataMotionChartID1dcc140a804 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -10025,8 +10025,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID8f021236cc3() {
-var data = gvisDataMotionChartID8f021236cc3();
+function drawChartMotionChartID1dcc140a804() {
+var data = gvisDataMotionChartID1dcc140a804();
 var options = {};
 options["width"] =    600;
 options["height"] =    500;
@@ -10034,7 +10034,7 @@ options["state"] = "";
 
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID8f021236cc3')
+    document.getElementById('MotionChartID1dcc140a804')
     );
     chart.draw(data,options);
     
@@ -10058,9 +10058,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID8f021236cc3);
+callbacks.push(drawChartMotionChartID1dcc140a804);
 })();
-function displayChartMotionChartID8f021236cc3() {
+function displayChartMotionChartID1dcc140a804() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -10084,18 +10084,22 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID8f021236cc3"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID1dcc140a804"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID8f021236cc3" 
+<div id="MotionChartID1dcc140a804" 
   style="width: 600; height: 500;">
 </div>
- <div><span>Data: df &#8226; Chart ID: <a href="Chart_MotionChartID8f021236cc3.html">MotionChartID8f021236cc3</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: df &#8226; Chart ID: <a href="Chart_MotionChartID1dcc140a804.html">Mot시간이 흐를 수록 기대수명과 소득의 비례관계는 더욱 도드라진다.ionChartID1dcc140a804</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
-  R version 3.2.3 (2015-12-10) 
+  R version 3.2.4 Revised (2016-03-16 r70336) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/motionchart">Documentation and Data Policy</a>
 </span></div>
+<p>기대수명과 소득의 상관관계를 나타낸 모션차트이다.</p>
+<p>색은 대륙별 지역을 나타낸 것이다.</p>
+<p>크기는 인구 수를 나타낸 것이다.</p>
+<p>시간이 흐를수록 기대수명과 소득의 비례관계는 더욱 도드라진다.</p>
 </body>
 </html>
