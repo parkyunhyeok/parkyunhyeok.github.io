@@ -2,7 +2,7 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>BubbleChartID2820218e246f</title>
+<title>BubbleChartID1dcc29b456ac</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <style type="text/css">
 body {
@@ -18,14 +18,14 @@ body {
 </head>
 <body>
  <!-- BubbleChart generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Mon Jun 06 22:59:25 2016 -->
+<!-- Tue Jun 14 01:15:41 2016 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataBubbleChartID2820218e246f () {
+function gvisDataBubbleChartID1dcc29b456ac () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1188,14 +1188,18 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartBubbleChartID2820218e246f() {
-var data = gvisDataBubbleChartID2820218e246f();
+function drawChartBubbleChartID1dcc29b456ac() {
+var data = gvisDataBubbleChartID1dcc29b456ac();
 var options = {};
-
+options["title"] = "Correlation between lifeExp and Income";
+options["vAxis"] = {title: 'Income'};
+options["hAxis"] = {title: 'lifeExp'};
+options["width"] =   1300;
+options["height"] =    400;
 
 
     var chart = new google.visualization.BubbleChart(
-    document.getElementById('BubbleChartID2820218e246f')
+    document.getElementById('BubbleChartID1dcc29b456ac')
     );
     chart.draw(data,options);
     
@@ -1219,9 +1223,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBubbleChartID2820218e246f);
+callbacks.push(drawChartBubbleChartID1dcc29b456ac);
 })();
-function displayChartBubbleChartID2820218e246f() {
+function displayChartBubbleChartID1dcc29b456ac() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1245,21 +1249,22 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID2820218e246f"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBubbleChartID1dcc29b456ac"></script>
  
 <!-- divChart -->
   
-<div id="BubbleChartID2820218e246f" 
-  style="width: 500; height: automatic;">
+<div id="BubbleChartID1dcc29b456ac" 
+  style="width: 1300; height: 400;">
 </div>
- <div><span>Data: df &#8226; Chart ID: <a href="Chart_BubbleChartID2820218e246f.html">BubbleChartID2820218e246f</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: df &#8226; Chart ID: <a href="Chart_BubbleChartID1dcc29b456ac.html">BubbleChartID1dcc29b456ac</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.2.4 Revised (2016-03-16 r70336) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/bubblechart">Documentation and Data Policy</a>
 </span></div>
-<p>기대수명(x축)과 소득(y축)의 상관관계를 나타낸 bubble차트이다.</p>
-<p>버블의 크기는 인구에 비례한다.</p>
-<p>색은 지역에 따라 분류되었다.</p>
+<p>기대수명과 소득의 상관관계를 나타낸 버블차트이다.</p>
+<p>버블의 크기는 인구수에 비례한다.</p>
+<p>버블의 색은 대륙별 지역으로 표현된다.</p>
+<p>기대수명이 늘어날 수록 소득이 증가됨을 알 수 있다.</p>
 </body>
 </html>
